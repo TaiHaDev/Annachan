@@ -6,39 +6,39 @@ export const data = [
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["tai"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["tai"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["tai"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["tai"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["vanh"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["anna"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["terris"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: ["john"]
     },
     {
         src: anna,
-        attributes: [""]
+        attributes: []
     },    {
         src: anna,
         attributes: []
