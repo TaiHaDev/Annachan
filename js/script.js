@@ -163,10 +163,6 @@ const Fauna = [
         Behaviour: ['The tentacles are used to detect allies nearby',
             'It feeds on algae and plankton']
     },
-];
-
-const Flora = [
-
 
     {
 
@@ -397,7 +393,6 @@ const Flora = [
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ' The red beard absorbs nutrients in the water, and the thick branches are conducive to storing more nutrients.'
     },
-
 ]
 
 
