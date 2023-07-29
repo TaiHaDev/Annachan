@@ -49,8 +49,8 @@ function App() {
     >
       <div>
         <img src={logo} alt=""  className="invisible md:visible absolute top-8 left-8 w-16 h-16 rounded-md"/>
-        <h1 class="mt-12 text-xl md:text-4xl text-center font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-orange-600 to-white">
-        Alien encyclopedia by <span className="text-lg bg-clip-text bg-gradient-to-br from-orange-600 to-gray-700">Hackerstreet Boys</span>
+        <h1 class="mt-12 text-xl md:text-4xl text-center font-medium text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-700 via-orange-300 to-rose-800">
+        ALIEN ENCYCLOPEDIA BY <span className="text-lg bg-clip-text bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-300 via-fuchsia-600 to-orange-600">Hackerstreet Boys</span>
 </h1>
       </div>
 
@@ -73,13 +73,13 @@ function App() {
           
         >
           {displayingData.map((obj) => (
-            <div className="flip-card w-32 h-32 md:w-40 md:h-40 lg:w-60 lg:h-60">
+            <div className="flip-card w-32 h-32 md:w-40 md:h-40 lg:w-96 lg:h-96">
               <div className="flip-card-inner">
                 <div className="flip-card-front ">
                   <img
                     src={obj.src}
                     alt=""
-                    className="object-cover w-32 h-32 md:w-40 md:h-40 lg:w-60 lg:h-60 rounded-md"
+                    className="object-cover w-32 h-32 md:w-40 md:h-40 lg:w-96 lg:h-96 rounded-md"
                   />
                 </div>
                 <div className={`flip-card-back bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 flex flex-col items-center justify-center p-2`} >
