@@ -4,6 +4,7 @@ import { data } from "./Dummy";
 import logo from "./asset/logo.jpeg"
 import React from 'react'
 import Filter from "./Filter";
+import { getRandomLightColor } from "./ultilities/GenerateColor";
 
 
 const transformData = data => {
@@ -21,6 +22,7 @@ const transformData = data => {
 };
   
 function App() {
+  console.log(getRandomLightColor())
   const [displayingData, setDisplayingData] = useState(data);
   const [filterData, setFilterData] = useState(transformData(data));
   const [chosenFilter, setChosenFilter] = useState([]);
@@ -71,11 +73,21 @@ function App() {
           
         >
           {displayingData.map((obj) => (
-            <img
-              src={obj.src}
-              alt=""
-              className="object-cover w-32 h-32 md:w-40 md:h-40 lg:w-60 lg:h-60 rounded-md"
-            />
+            <div className="flip-card w-32 h-32 md:w-40 md:h-40 lg:w-60 lg:h-60">
+              <div className="flip-card-inner">
+                <div className="flip-card-front ">
+                  <img
+                    src={obj.src}
+                    alt=""
+                    className="object-cover w-32 h-32 md:w-40 md:h-40 lg:w-60 lg:h-60 rounded-md"
+                  />
+                </div>
+                <div className={`flip-card-back bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 flex flex-col items-center justify-center p-2`} >
+                  <p className="text-slate-800 font-medium text-xl">Annachan</p>
+                  <p className="text-sm text-center">Unique, rare, pretty and not FAT ❤️</p>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>
