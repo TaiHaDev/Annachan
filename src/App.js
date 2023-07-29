@@ -10,7 +10,7 @@ const transformData = (data) => {
   const filterData = {};
   data.forEach((e) => {
     e.Morophological.forEach((fil) => {
-      if (filterData[fil]) {
+      if (filterData[fil] != null) {
         filterData[fil].push(e);
       } else {
         filterData[fil] = [e];
@@ -84,7 +84,7 @@ function App() {
 
         <div className="flex flex-wrap items-center justify-center mt-8 overflow-hidden gap-2 md:gap-8 ">
           {displayingData.map((obj) => (
-            <div className="flip-card w-32 h-32 md:w-40 md:h-40 lg:w-96 lg:h-96 rounded-md">
+            <div key={obj.name} className="flip-card w-32 h-32 md:w-40 md:h-40 lg:w-96 lg:h-96 rounded-md">
               <div className="flip-card-inner">
                 <div className="flip-card-front ">
                   <img

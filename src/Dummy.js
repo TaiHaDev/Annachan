@@ -12,7 +12,7 @@ export const data = [
   {
     name: "fauna3",
     imageURL: fauna3,
-    Morophological: ["Beak", "6 legs", "antlers", "2 eyes", "orange skin", "No tail"],
+    Morophological: ["beak", "6 legs", "antlers", "2 eyes", "orange skin", "No tail"],
     Genetic_Structure: "DNA structure (Z)  - there is no form of species that exist on earth that have 6 limbs. Hence, we have to generate a new form of DNA structure",
     Behaviour: ["when they are in danger. They send signals by shouting to their friend", "Large eye for night vision and 360 views", "Use peak to attack and penetrate hard surface for food"],
   },
