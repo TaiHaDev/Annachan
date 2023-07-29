@@ -23,26 +23,28 @@ function App() {
       width: '100vw',
       height: '100vh',
       overflow: 'auto'
-    }}>
+    }}
+    className="text-xs md:text-xl"
+    >
       <div
-        className="m-24 text-center"
+        className="m-4 md:m-12 lg:m-24 text-center"
       >
         <input
           ref={searchRef}
           type="text"
-          className="border-b border-black w-[40rem] outline-none bg-transparent text-2xl font-medium placeholder:font-medium"
+          className="border-b border-black w-[20rem] md:w-[40rem] outline-none bg-transparent  font-medium placeholder:font-medium"
           placeholder="Search for your favourite space creatures"
           onChange={onInputChange}
         />
         <div
-          className="flex flex-wrap items-center justify-start mt-8 overflow-hidden gap-8 "
+          className="flex flex-wrap items-center justify-center mt-8 overflow-hidden gap-2 md:gap-8 "
           
         >
           {displayingData.map((obj) => (
             <img
               src={obj.src}
               alt=""
-              className="object-cover w-60 h-60 rounded-md"
+              className="object-cover w-32 h-32 md:w-40 md:h-40 lg:w-60 lg:h-60 rounded-md"
             />
           ))}
         </div>
