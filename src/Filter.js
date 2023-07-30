@@ -75,7 +75,7 @@ const Filter = ({
                     </p>
                   </div>
 
-                  <p className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                  <p className="ml-2  md:text-sm font-medium text-gray-900 dark:text-gray-300">
                     {value.length}
                   </p>
                 </div>

@@ -84,31 +84,31 @@ function App() {
 
         <div className="flex flex-wrap items-center justify-center mt-8 overflow-hidden gap-2 md:gap-8 ">
           {displayingData.map((obj) => (
-            <div key={obj.name} className="flip-card w-32 h-32 md:w-40 md:h-40 lg:w-96 lg:h-96 rounded-md">
+            <div key={obj.name} className="flip-card  w-96 h-96 rounded-md">
               <div className="flip-card-inner">
-                <div className="flip-card-front ">
+                <div className="flip-card-front rounded-md">
                   <img
                     src={obj.imageURL}
                     alt=""
-                    className="object-cover w-32 h-32 md:w-40 md:h-40 lg:w-96 lg:h-96 rounded-lg"
+                    className="object-cover w-96 h-96 rounded-lg"
                   />
                 </div>
                 <div
-                  className={`flip-card-back bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 flex flex-col items-center justify-center p-2`}
+                  className={`flip-card-back bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 flex flex-col items-center justify-center p-2 rounded-md`}
                 >
                   <div className="">
                     <p >Name:</p>
-                    <p className="text-black text-sm">{obj.name}</p>
+                    <p className="text-black text-xs md:text-sm">{obj.name}</p>
                   </div>
                   <div>
                     <p >Genetic Structure:</p>
-                    <p className="text-sm text-black">
+                    <p className="text-xs md:text-sm text-black">
                       {obj.Genetic_Structure}
                     </p>
                   </div>
                   <div>
                     <p >Behaviour: </p>
-                  <p className="text-sm text-center text-black">
+                  <p className="text-xs md:text-sm text-center text-black">
                     {obj.Behaviour}
                   </p>
                   </div>
