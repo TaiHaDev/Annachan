@@ -71,7 +71,7 @@ function App() {
             ref={searchRef}
             type="text"
             className="border-b border-white w-[20rem] md:w-[40rem] outline-none bg-transparent  font-medium placeholder:font-medium"
-            placeholder="Search for your favourite space creatures"
+            placeholder="Search for space creatures"
             onChange={onInputChange}
           />
           <Filter
