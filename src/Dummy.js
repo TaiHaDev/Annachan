@@ -1,4 +1,5 @@
 import fauna3 from './image/Forest/fauna3.png';
+import fauna1 from './image/Mountain/fauna1.png';
 import fauna4 from "./image/Forest/fauna4.png";
 import fauna5 from "./image/Forest/fauna5.png";
 import fauna7 from "./image/Forest/fauna7.png";
@@ -6,7 +7,36 @@ import fauna9 from "./image/Forest/fauna9.png";
 import fauna14 from "./image/Forest/fauna14.png";
 import fauna17 from "./image/Forest/fauna17.png";
 import fauna21 from "./image/Forest/fauna21.png";
-import fauna1 from "./image/Mountain/fauna1.png";  
+import fauna8 from "./image/Mountain/fauna8.png";
+import fauna31 from "./image/Mountain/fauna31.png";
+import fauna16 from "./image/Mountain/fauna16.png";
+import fauna10 from "./image/Forest/fauna10.png";
+import fauna19 from "./image/Ice/fauna19.png";
+import flora4 from "./image/Forest/flora4.png";
+import flora3 from "./image/Ice/flora3.png";
+import flora5 from "./image/Forest/flora5.png";
+import flora6 from "./image/Forest/flora4.png";
+import flora7 from "./image/Forest/flora4.png";
+import flora8 from "./image/Forest/flora4.png";
+import flora9 from "./image/Forest/flora4.png";
+import flora10 from "./image/Forest/flora4.png";
+import flora12 from "./image/Forest/flora12.png";
+import flora13 from "./image/Forest/flora13.png";
+import flora14 from "./image/Mountain/flora14.png";
+import flora17 from "./image/Mountain/flora17.png";
+import flora18 from "./image/Mountain/flora18.png";
+import flora20 from "./image/Ice/flora20.png";
+import flora23 from "./image/Mountain/flora23.png";
+import flora25 from "./image/Mountain/flora25.png";
+import flora11 from "./image/Forest/flora11.png";
+import flora19 from "./image/Mountain/flora19.png";
+import flora21 from "./image/Ice/flora21.png";
+import flora22 from "./image/Mountain/flora22.png";
+import flora30 from "./image/Mountain/flora19.png";
+import fauna30 from "./image/Ice/fauna30.png";
+
+
+
 
 export const data =  [
     {
@@ -23,7 +53,7 @@ export const data =  [
     {
 
         name: 'fauna4',
-        imageURL: './image/Forest/fauna4.png',
+        imageURL: fauna4,
         Morophological: ['Exoskeleton', '4 legs', '2 arms', '2 eyes', 'No Tail', 'trunk mouth'],
         Genetic_Structure: 'DNA structure (G+C) - This DNA structure is similar to some of the insects found on earth which is why we don’t have to develop a new category/DNA structure from the insect. DNA structures can be similar but morphological (physical features) can vary',
         Behaviour: ['when in danger they transform themselves into a ball and roll',
@@ -35,7 +65,7 @@ export const data =  [
     {
 
         name: 'fauna5',
-        imageURL: './image/Forest/fauna5.png',
+        imageURL: fauna5,
         Morophological: ['4 legs', '2 eyes', 'smooth reptilian skin', '1 tail', 'mouth'],
         Genetic_Structure: 'The DNA structure is a mixture of a dinosaur and a lizard',
         Behaviour: ['When is danger they eject venomous liquid from the hanging tail',
@@ -47,7 +77,7 @@ export const data =  [
     {
 
         name: 'fauna7',
-        imageURL: './image/Forest/fauna7.png',
+        imageURL: fauna7,
         Morophological: ['2 eyes', '2 legs', 'smooth skin', 'No tail', 'mouth'],
         Genetic_Structure: 'A combination of a rhino and frog because the creature is similar to a frog but has the facial features of a rhino',
         Behaviour: ['when in danger the little spike can automatically stretch out',
@@ -58,7 +88,7 @@ export const data =  [
     {
 
         name: 'fauna9',
-        imageURL: './image/Forest/fauna9.png',
+        imageURL: fauna9,
         Morophological: ['2 eyes', 'scaly skin', '4 legs', 'mouth'],
         Genetic_Structure: 'Type Z due to having a multicoloured skin while also having features to camouflage to its surrounding environment',
         Behaviour: ['They can blend their skin color into the surrounding',
@@ -69,7 +99,7 @@ export const data =  [
     {
 
         name: 'fauna14',
-        imageURL: './image/Forest/fauna14.png',
+        imageURL: fauna14,
         Morophological: ['Feathers', 'beak', '2 eyes', '2 wings', '2 legs', 'gills'],
         Genetic_Structure: 'Amphibian can survive both on land and water due to having wings to fly and gills to breathe under water',
         Behaviour: ['Their yellow hair only grows when they have their birthday',
@@ -80,7 +110,7 @@ export const data =  [
     {
 
         name: 'fauna17',
-        imageURL: './image/Forest/fauna17.png',
+        imageURL: fauna17,
         Morophological: ['2 hands', '4 legs', '2 eyes', 'mouth', 'exoskeleton'],
         Genetic_Structure: 'The exoskeleton makes the insect similar to a grasshopper and cockroach',
         Behaviour: ['parasites',
@@ -90,7 +120,7 @@ export const data =  [
     {
 
         name: 'fauna21',
-        imageURL: './image/Forest/fauna21.png',
+        imageURL: fauna21,
         Morophological: ['Scaly skin', 'beak', '2 eyes', '4 legs'],
         Genetic_Structure: 'Similar to a porcupine because of the scaly features',
         Behaviour: ['Lives on dry habitat',
@@ -101,7 +131,7 @@ export const data =  [
     {
 
         name: 'fauna1',
-        imageURL: './image/Forest/fauna1.png',
+        imageURL: fauna1,
         Morophological: ['2 eyes', '4 legs', 'scaly skin', '1 tail', 'mouth', '2 horns'],
         Genetic_Structure: 'Potentially contains DNA sequence similar to a dinosaur. If acquired, research could be conducted that assists scientists to unsolved mysteries about dinosaurs',
         Behaviour: ['Use their horn to attack',
@@ -111,7 +141,7 @@ export const data =  [
     {
 
         name: 'fauna30',
-        imageURL: './image/Forest/fauna30.png',
+        imageURL: fauna30,
         Morophological: ['2 legs', '2 wings', 'beak', 'feathers', '2 eyes'],
         Genetic_Structure: 'Similar to an Ostrich although contains longer hair which could be worth conducting a research. Very similar reproduction style to that of an Ostrich',
         Behaviour: ['They can live in cold place because of their thick feather',
@@ -121,7 +151,7 @@ export const data =  [
     {
 
         name: 'fauna8',
-        imageURL: './image/Forest/fauna8.png',
+        imageURL: fauna8,
         Morophological: ['4 eyes', '4 legs', 'smooth skin', 'mouth'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala. \n',
         Behaviour: ['Slow movement similar to sloth',
@@ -132,7 +162,7 @@ export const data =  [
     {
 
         name: 'fauna31',
-        imageURL: './image/Forest/fauna31.png',
+        imageURL: fauna31,
         Morophological: ['2 eyes', '5 legs', 'No tail', 'scaly skin', 'mouth'],
         Genetic_Structure: 'Potentially related to the family of dinosaurs',
         Behaviour: ['Loves sunshine',
@@ -144,7 +174,7 @@ export const data =  [
     {
 
         name: 'fauna16',
-        imageURL: './image/Forest/fauna16.png',
+        imageURL: fauna16,
         Morophological: [' 2 eyes', 'exoskeleton', 'no mouth', 'no tail', '6 legs'],
         Genetic_Structure: 'DNA structure - unidentified Type Z. Research is yet to be conducted on this organism',
         Behaviour: ['Sensor on their head use to communicate by sending waves',
@@ -156,7 +186,7 @@ export const data =  [
     {
 
         name: 'fauna10',
-        imageURL: './image/Forest/fauna10.png',
+        imageURL: fauna10,
         Morophological: ['2 eyes', 'flora skin', '4 legs', 'no mouth'],
         Genetic_Structure: 'Similar to a seahorse and jellyfish as their head is similar to that of a jellyfish and their mouth somewhat resembles a seahorse',
         Behaviour: ['It shines their head to attract preys and eat them',
@@ -166,7 +196,7 @@ export const data =  [
     {
 
         name: 'fauna19',
-        imageURL: './image/Forest/fauna10.png',
+        imageURL: fauna19,
         Morophological: ['2 eyes', '6 legs', 'exoskeleton', 'no mouth'],
         Genetic_Structure: 'Similar to a bug although unlike an insect it can survive in freezing temperatures',
         Behaviour: ['The tentacles are used to detect allies nearby',
@@ -176,7 +206,7 @@ export const data =  [
     {
 
         name: 'flora4',
-        imageURL: './image/Forest/fauna4.png',
+        imageURL: flora4,
         Morophological: ['2 eyes', '6 legs', 'exoskeleton', 'no mouth'],
         Genetic_Structure: 'Structure similar to sea anemone',
         Behaviour: ['Only glows red when the surrounding is dark']
@@ -185,7 +215,7 @@ export const data =  [
     {
 
         name: 'flora3',
-        imageURL: './image/Forest/fauna3.png',
+        imageURL: flora3,
         Morophological: ['Circular structure', 'exposed roots', '1-3 meters tall'],
         Genetic_Structure: 'Similar structure to Dandelions',
         Behaviour: ['It will descend down to the ground during night time and rise up again during day time']
@@ -194,7 +224,7 @@ export const data =  [
     {
 
         name: 'flora5',
-        imageURL: './image/Forest/fauna5.png',
+        imageURL: flora5,
         Morophological: ['Circular structure', 'lance-shaped leaves', 'concealed roots', '0.1-0.5 meters tall'],
         Genetic_Structure: 'Unknown',
         Behaviour: ['The central ring is concave to store water, and the outer ring is protected by two layers of thorn leaves']
@@ -203,7 +233,7 @@ export const data =  [
     {
 
         name: 'flora6',
-        imageURL: './image/Forest/fauna6.png',
+        imageURL: flora6,
         Morophological: ['Asymmetric structure', 'flat-plane leaves', 'exposed roots', '0.1-0.5 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala. \n',
         Behaviour: ['Warn predators with bright colors to ensure safety']
@@ -213,7 +243,7 @@ export const data =  [
     {
 
         name: 'flora7',
-        imageURL: './image/Forest/fauna7.png',
+        imageURL: flora7,
         Morophological: ['Circular structure', 'cylinder leaves', 'concealed roots', '0.1-0.2 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala',
         Behaviour: ['Use the prominent bright ring structure that can secrete sweet mucus to attract insects to stick and absorb']
@@ -223,7 +253,7 @@ export const data =  [
     {
 
         name: 'flora8',
-        imageURL: './image/Forest/fauna7.png',
+        imageURL: flora8,
         Morophological: ['Trunk structure', 'spoon leaves', 'concealed roots', '0.5 - 2 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['The sharp things on the leaf are poisons']
@@ -232,7 +262,7 @@ export const data =  [
     {
 
         name: 'flora9',
-        imageURL: './image/Forest/fauna9.png',
+        imageURL: flora9,
         Morophological: ['trunk structure', 'kidney shaped leaves', 'concealed roots', '0.4-1.2 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Attract insects by secreting sweet mucus at the top, thus sticking to insects and releasing corrosive liquid to absorb nutrients']
@@ -240,17 +270,8 @@ export const data =  [
 
     {
 
-        name: 'flora8',
-        imageURL: './image/Forest/fauna7.png',
-        Morophological: ['Trunk structure', 'spoon leaves', 'concealed roots', '0.5 - 2 meters tall'],
-        Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
-        Behaviour: ['The sharp things on the leaf are poisons']
-    },
-
-    {
-
-        name: 'flora9',
-        imageURL: './image/Forest/fauna9.png',
+        name: 'flora10',
+        imageURL: flora10,
         Morophological: ['circular structure', 'linear shape leaves', 'concealed roots', '1-2 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['The curly jagged leaves are straightened at the moment the prey touches it, while the thorn in the middle pierces the prey and releases toxins.']
@@ -259,7 +280,7 @@ export const data =  [
     {
 
         name: 'flora11',
-        imageURL: './image/Forest/fauna11.png',
+        imageURL: flora11,
         Morophological: ['Trunk structure', 'spoon leaves', 'concealed roots', '0.5 - 2 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['The sharp things on the leaf are poisons']
@@ -268,7 +289,7 @@ export const data =  [
     {
 
         name: 'flora10',
-        imageURL: './image/Forest/fauna10.png',
+        imageURL: flora10,
         Morophological: ['Oval structure', 'linear leaves', 'exposed roots', '0.5-1 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Vascular veins play the role of transporting nutrients and protecting the central']
@@ -277,7 +298,7 @@ export const data =  [
     {
 
         name: 'flora12',
-        imageURL: './image/Forest/fauna12.png',
+        imageURL: flora12,
         Morophological: ['Disc structure', 'cylindrical leaves', 'concealed roots', '1-1.5 meters tal'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['The sea anemone-shaped plant wraps a large number of spore tubular plants']
@@ -286,7 +307,7 @@ export const data =  [
     {
 
         name: 'flora13',
-        imageURL: './image/Forest/fauna13.png',
+        imageURL: flora13,
         Morophological: ['Trunk structure', 'lance-shaped leaves', 'concealed roots', '2-5 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Slow growth, dioecious, and the stem can be used for medicinal purposes.']
@@ -295,7 +316,7 @@ export const data =  [
     {
 
         name: 'flora14',
-        imageURL: './image/Forest/fauna14.png',
+        imageURL: flora14,
         Morophological: ['Asymmetrical structure', 'bulb-shaped leaves', 'concealed roots', '1-2 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Independent cystic leaves store a large amount of water to increase survival in arid areas']
@@ -304,7 +325,7 @@ export const data =  [
     {
 
         name: 'flora17',
-        imageURL: './image/Forest/fauna17.png',
+        imageURL: flora17,
         Morophological: [' asymmetric shape', 'bulb-shaped leaves', 'exposed roots', '0.5-1 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Attract insects to pollinate through pink and purple sweet flowers',
@@ -314,7 +335,7 @@ export const data =  [
     {
 
         name: 'flora18',
-        imageURL: './image/Forest/fauna18.png',
+        imageURL: flora18,
         Morophological: ['Circular structure', 'cylindrical leaves', 'concealed roots', '0.1-3 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Use worm-shaped branches to wrap the stems together to reduce the loss of water and attract prey',
@@ -324,7 +345,7 @@ export const data =  [
     {
 
         name: 'flora19',
-        imageURL: './image/Forest/fauna19.png',
+        imageURL: flora19,
         Morophological: ['Oval structure', 'needle leaves', 'concealed roots', '1-1.5 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Bright color flowers and thorn-shaped leaves, which can reduce the water transpiration']
@@ -333,7 +354,7 @@ export const data =  [
     {
 
         name: 'flora20',
-        imageURL: './image/Forest/fauna20.png',
+        imageURL: flora20,
         Morophological: ['Trunk structure', 'bulbous leaves', 'exposed roots', '20 - 50 centimeters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: [' A low implant is conducive to reducing the damage caused by strong airflow. Bright buds are conducive to attracting insect pollination']
@@ -342,7 +363,7 @@ export const data =  [
     {
 
         name: 'flora21',
-        imageURL: './image/Forest/fauna21.png',
+        imageURL: flora21,
         Morophological: ['Trunk structure', 'wedge shape leaves', 'concealed roots', '1-5 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ['Bright color reduces the damage of radiation such as solar ultraviolet and infrared']
@@ -352,7 +373,7 @@ export const data =  [
     {
 
         name: 'flora22',
-        imageURL: './image/Forest/fauna22.png',
+        imageURL: flora22,
         Morophological: ['Trunk structure', 'spine shapes leaves', 'exposed roots', '2-3 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: 'Most of the stem is buried under the sediment, which is more conducive to protecting it from harm, and can extend deeper rhizomes to absorb nutrients.'
@@ -361,7 +382,7 @@ export const data =  [
     {
 
         name: 'flora23',
-        imageURL: './image/Forest/fauna23.png',
+        imageURL: flora23,
         Morophological: ['Asymmetrical structure', 'linear leaves', 'exposed roots', '5-11 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: ' The red beard absorbs nutrients in the water, and the thick branches are conducive to storing more nutrients.'
@@ -370,7 +391,7 @@ export const data =  [
     {
 
         name: 'flora25',
-        imageURL: './image/Forest/fauna25.png',
+        imageURL: flora25,
         Morophological: ['circular structure, linear leaves, concealed roots, 1-1.5 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: 'Dense worm-shaped leaves are conducive to retaining water and reducing evaporation'
@@ -379,7 +400,7 @@ export const data =  [
     {
 
         name: 'flora17',
-        imageURL: './image/Forest/fauna17.png',
+        imageURL: flora17,
         Morophological: ['Trunk structure', 'dome shaped leaves', 'concealed roots', '0.1-0.5 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: 'utilize bright color to attract insect pollination'
@@ -388,7 +409,7 @@ export const data =  [
     {
 
         name: 'flora30',
-        imageURL: './image/Forest/fauna30.png',
+        imageURL: flora30,
         Morophological: [' Ecosystem structure', 'tree-shaped leaves', '1-5 km large'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
         Behaviour: 'When it is ripe it drops down from the tree.'
@@ -397,9 +418,9 @@ export const data =  [
     {
 
         name: 'flora23',
-        imageURL: './image/Forest/fauna23.png',
+        imageURL: flora23,
         Morophological: ['Asymmetrical structure', 'linear leaves', 'exposed roots', '5-11 meters tall'],
         Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
-        Behaviour: ' The red beard absorbs nutrients in the water, and the thick branches are conducive to storing more nutrients.'
+        Behaviour: 'The red beard absorbs nutrients in the water, and the thick branches are conducive to storing more nutrients.'
     },
 ];
