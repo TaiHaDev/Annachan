@@ -57,7 +57,7 @@ function App() {
           alt=""
           className="invisible md:visible absolute top-8 left-8 w-16 h-16 rounded-md"
         />
-        <h1 class="mt-12 text-xl md:text-4xl text-center font-medium text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-700 via-orange-300 to-rose-800">
+        <h1 className="mt-12 text-xl md:text-4xl text-center font-medium text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-700 via-orange-300 to-rose-800">
           ALIEN ENCYCLOPEDIA BY{" "}
           <span className="text-lg bg-clip-text bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-300 via-fuchsia-600 to-orange-600">
             Hackerstreet Boys
@@ -109,7 +109,7 @@ function App() {
                   <div>
                     <p >Behaviour: </p>
                   <p className="text-sm text-center text-black">
-                    ${obj.Behaviour}
+                    {obj.Behaviour}
                   </p>
                   </div>
 

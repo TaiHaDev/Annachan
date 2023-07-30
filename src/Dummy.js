@@ -268,14 +268,7 @@ export const data =  [
         Behaviour: ['Attract insects by secreting sweet mucus at the top, thus sticking to insects and releasing corrosive liquid to absorb nutrients']
     },
 
-    {
 
-        name: 'flora10',
-        imageURL: flora10,
-        Morophological: ['circular structure', 'linear shape leaves', 'concealed roots', '1-2 meters tall'],
-        Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
-        Behaviour: ['The curly jagged leaves are straightened at the moment the prey touches it, while the thorn in the middle pierces the prey and releases toxins.']
-    },
 
     {
 
@@ -379,14 +372,7 @@ export const data =  [
         Behaviour: 'Most of the stem is buried under the sediment, which is more conducive to protecting it from harm, and can extend deeper rhizomes to absorb nutrients.'
     },
 
-    {
 
-        name: 'flora23',
-        imageURL: flora23,
-        Morophological: ['Asymmetrical structure', 'linear leaves', 'exposed roots', '5-11 meters tall'],
-        Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
-        Behaviour: ' The red beard absorbs nutrients in the water, and the thick branches are conducive to storing more nutrients.'
-    },
 
     {
 
@@ -397,14 +383,7 @@ export const data =  [
         Behaviour: 'Dense worm-shaped leaves are conducive to retaining water and reducing evaporation'
     },
 
-    {
 
-        name: 'flora17',
-        imageURL: flora17,
-        Morophological: ['Trunk structure', 'dome shaped leaves', 'concealed roots', '0.1-0.5 meters tall'],
-        Genetic_Structure: 'DNA type Z - Unidentified. Could have similarities to a baby panda or a full grown koala.',
-        Behaviour: 'utilize bright color to attract insect pollination'
-    },
 
     {
 
